@@ -13,8 +13,10 @@ public class Main {
         System.out.println(extendedSocialWeb1.getHistory(1, "12.12.2015"));
 
         Detective detective = new DetectiveFacade();
+        TaxInspector taxInspector = new TaxInspectorFacade();
+
+        System.out.println(taxInspector.getPayHistory());
         System.out.println(detective.getDossier(1));
-        System.out.println(extendedSocialWeb1.getPaysHistory(1));
 
     }
 }
