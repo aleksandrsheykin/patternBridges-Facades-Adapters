@@ -9,10 +9,11 @@ import java.util.List;
 public class VKSocialWeb extends BasicSocialWeb {
 
     public String getHistory() {
-        return "vk history, ahaha loool";
+        return "vk history ahaha loool";
     }
 
     public List<Integer> getLikes(int userId, boolean showNegatives, int messageId) {
         return Arrays.asList(1, 2, 3, 3, 4);
     }
+
 }

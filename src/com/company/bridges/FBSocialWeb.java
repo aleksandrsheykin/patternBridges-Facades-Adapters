@@ -9,7 +9,7 @@ import java.util.List;
 public class FBSocialWeb extends BasicSocialWeb {
 
     String getHistory(String date) {
-        return "lalalalala";
+        return "FB history lalalalala";
     }
 
     public List<Integer> getLikes(int userId, boolean showNegatives, int messageId) {
